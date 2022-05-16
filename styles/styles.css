@@ -10,10 +10,17 @@ body{
 
 .main-page{
     background-color: whitesmoke;
+    padding: 112px 0 72px 0;
+}
+
+.main-page-container{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     width: 980px;
-    padding: 132px auto 92px auto;
+    padding: 20px 0;
+    margin: 0 auto;
 }
 
 .login-message{
@@ -21,6 +28,7 @@ body{
     flex-direction: column;
     margin: 0;
     padding-right: 32px;
+    text-align: left;
 }
 
 .login-form{
@@ -28,6 +36,8 @@ body{
     flex-direction: column;
     height: 496px;
     width: 396px;
+    justify-content: center;
+    text-align: center;
 
 }
 
