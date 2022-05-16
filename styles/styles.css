@@ -16,8 +16,7 @@ body{
 .main-page-container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: top;
+    align-items: center;
     max-width: 980px;
     padding: 20px 0;
     margin: 0 auto;
@@ -30,7 +29,7 @@ body{
     text-align: left;
 }
 
-.login-form{
+.login-form-section{
     display: flex;
     flex-direction: column;
     height: 496px;
@@ -57,6 +56,80 @@ body{
 }
 
 /* the log-in form sections */
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 0 0;
+    padding: 20px 0 28px 0;
+}
+
+.cridentials-box{
+    padding: 6px;
+
+}
+
+.login-button-box{
+    padding-top: 6px;
+}
+
+.forgot-password-box{
+    color: dodgerblue;
+    margin-top: 16px;
+    text-align: center;
+
+}
+
+.horizontal-line{
+    color: whitesmoke;
+    margin: 20px 16px;
+
+}
+
+.signup-box{
+    color: white;
+    padding-top: 6px;
+    font-size: 12px;
+
+}
+
+input[type=text], input[type=password]{
+    width: 330px;
+    padding: 14px 16px;
+    border: 6px none;
+    border-radius: 6px;
+    font-size: 17px;
+    
+}
+
+
+.login-button{
+    color: white;
+    background-color: dodgerblue;
+    width: 330px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+
+}
+
+.signup-button{
+    color: white;
+    background-color: limegreen;
+    width: 55%;
+    padding: 0 16px;
+    border: 1px none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+
 
 
 
