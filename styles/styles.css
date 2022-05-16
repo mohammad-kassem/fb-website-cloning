@@ -1,4 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 
+.body-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-page{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    padding: 132px auto 92px auto;
+}
+
+.login-message{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-right: 32px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    height: 496px;
+    width: 396px;
+
+}
 
 
 
