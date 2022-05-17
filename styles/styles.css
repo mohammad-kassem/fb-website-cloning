@@ -28,6 +28,7 @@ body{
     margin: 0 5%;
 }
 
+/* the log-in message sections */
 .login-message{
     max-width: 548px;
     margin: 0;
@@ -36,7 +37,6 @@ body{
 }
 
 
-/* the log-in message sections */
 .fb-logo{
     padding: 112px 0 16px 0;
 }
@@ -54,6 +54,8 @@ body{
     font-weight: normal;
 }
 
+
+/* the log-in form sections */
 .login-form-section{
     display: flex;
     flex-direction: column;
@@ -65,7 +67,6 @@ body{
 }
 
 
-/* the log-in form sections */
 .login-form{
     background-color: white;
     display: flex;
@@ -177,6 +178,8 @@ input[type=text], input[type=password]{
     margin: 0 5%;
 }
 
+
+/*languages sections*/
 .languages {
     display: flex;
     flex-direction: row;
@@ -192,7 +195,7 @@ input[type=text], input[type=password]{
 
 }
 
-/*languages sections*/
+
 .languages li{
     color: rgb(138, 141, 145);
     display: inline-block;
@@ -205,6 +208,8 @@ input[type=text], input[type=password]{
     border-radius: 2px;
 }
 
+
+/* exteranal link sections*/
 .external-links{
     display: flex;
     flex-direction: row;
@@ -221,7 +226,6 @@ input[type=text], input[type=password]{
 }
 
 
-/* exteranal link sections*/
 .external-links li{ 
     color: rgb(138, 141, 145);
     display: inline-block;
