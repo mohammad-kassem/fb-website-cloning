@@ -1,0 +1,35 @@
+@media screen and (max-width: 1075px){
+    .login-message h2{
+        font-size: 24px;
+        padding-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .main-page-container{
+        padding-top: 0;
+    }
+
+    .main-page-content-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+
+    .login-message{
+        max-width: 396px;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .fb-logo{
+        padding: 20px 0;
+    }
+
+
+
+
+}
