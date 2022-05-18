@@ -87,9 +87,45 @@ body{
 
 }
 
+input[type=text], input[type=password]{
+    width: 330px;
+    padding: 14px 16px;
+    border: 1px solid rgb(221, 223, 226);
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid dodgerblue;
+    box-shadow: 0 0 5px dodgerblue;
+}
+
+
 .login-button-box{
     padding-top: 6px;
 }
+
+
+.login-button{
+    color: white;
+    background-color: dodgerblue;
+    width: 364px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    cursor: pointer;
+
+}
+
+.login-button:hover{
+    filter: brightness(90%);
+}
+
+
 
 .forgot-password-box{
     color: dodgerblue;
@@ -114,29 +150,6 @@ body{
 
 }
 
-input[type=text], input[type=password]{
-    width: 330px;
-    padding: 14px 16px;
-    border: 1px solid rgb(221, 223, 226);
-    border-radius: 6px;
-    font-size: 17px;
-    
-}
-
-
-.login-button{
-    color: white;
-    background-color: dodgerblue;
-    width: 364px;
-    padding: 0 16px;
-    border: none;
-    border-radius: 6px;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 48px;
-    cursor: pointer;
-
-}
 
 .signup-button{
     color: white;
@@ -149,6 +162,11 @@ input[type=text], input[type=password]{
     line-height: 48px;
     cursor: pointer;
 }
+
+.signup-button:hover{
+    filter: brightness(90%);
+}
+
 
 
 .brand-message{
@@ -208,6 +226,11 @@ input[type=text], input[type=password]{
     padding: 0 8px;
     border: 1px solid;
     border-radius: 1px;
+    cursor: pointer;
+}
+
+.more-languages-button:hover{
+    filter: brightness(90%);
 }
 
 i {
