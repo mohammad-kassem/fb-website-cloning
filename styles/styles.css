@@ -203,9 +203,16 @@ input[type=text], input[type=password]{
 
 }
 
-.more-language-button{
+.more-languages-button{
+    color: rgb(138, 141, 145);
+    padding: 0 8px;
     border: 1px solid;
-    border-radius: 2px;
+    border-radius: 1px;
+}
+
+i {
+    color: black;
+    vertical-align: middle;
 }
 
 
